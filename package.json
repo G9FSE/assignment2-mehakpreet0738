@@ -1,0 +1,31 @@
+{
+  "name": "tmdb-app",
+  "version": "1.0.0",
+  "description": "A Node.js CLI application that uses the TMDB API to fetch and display movie data in the terminal.",
+  "main": "bin/tmdb-app.js",
+  "bin": {
+    "tmdb-app": "bin/tmdb-app.js"
+  },
+  "scripts": {
+    "start": "node bin/tmdb-app.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "keywords": [
+    "tmdb",
+    "cli",
+    "movies",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
+
